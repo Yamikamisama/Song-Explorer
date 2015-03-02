@@ -11,9 +11,6 @@ Explore here: [Song Explorer](http://song-explorer.herokuapp.com/)
 SoundCloud API, JavaScript, AJAX, jQuery, Rails
 
 
-
-
-
 ##Team Members
 
 ####Michael Angelo

@@ -1,0 +1,72 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-02 02:16:59 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (28.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by EntriesController#index as HTML
+  [1m[35mUser Load (24.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1
+  Rendered entries/index.html.erb within layouts/application (45.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered sessions/_login_form.html.erb (48.6ms)
+  Rendered shared/_error_messages.html.erb (23.3ms)
+  Rendered users/_signup_form.html.erb (78.5ms)
+Completed 200 OK in 856ms (Views: 766.0ms | ActiveRecord: 56.8ms)
+
+
+Started GET "/assets/link_images.css?body=1" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/modal.css?body=1" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/navbar.css?body=1" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/popupHandler.js?body=1" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/rise.jpg" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/alternative.png" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/classical.png" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/country.png" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/dance.png" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/latin.png" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/metal.png" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/pop.png" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
+
+
+Started GET "/assets/rap.png" for 127.0.0.1 at 2015-03-02 02:17:02 -0500
