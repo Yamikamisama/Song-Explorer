@@ -7,6 +7,7 @@ application used to bring random music to users based on genres
 
 Explore here: [Song Explorer](http://song-explorer.herokuapp.com/)
 
+![](song-explorer.png)
 ####Built with:
 SoundCloud API, JavaScript, AJAX, jQuery, Rails
 
