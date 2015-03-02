@@ -1,0 +1,39 @@
+#albums li{
+	display: inline-block;
+  height: 10em;
+	width: 10em;
+
+}
+#classical{
+    background-image: url("classical.png");
+    background-size: 100%;
+
+}
+#alternative{
+    background-image: url("alternative.png");
+    background-size: 100%;
+}
+#pop{
+    background-image: url("pop.png");
+    background-size: 100%;
+}
+#metal{
+    background-image: url("metal.png");
+    background-size: 100%;
+}
+#dance{
+    background-image: url("dance.png");
+    background-size: 100%;
+}
+#latin{
+    background-image: url("latin.png");
+    background-size: 100%;
+}
+#country{
+    background-image: url("country.png");
+    background-size: 100%;
+}
+#rap{
+    background-image: url("rap.png");
+    background-size: 100%;
+}

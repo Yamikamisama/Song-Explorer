@@ -1,0 +1,19 @@
+<center><button id="modal_button"><a href="#login_form" id="login_pop">Create note</a></button></center>
+  <a href="#" class="overlay" id="login_form"></a>
+  <!-- modal code from  http://www.script-tutorials.com/demos/222/index.html#login_form -->
+  <div class="popup">
+
+  	<h2 id="popup_title"></h2>
+  	<h4 id="popup_genre"></h4>
+  	<div>
+  		<form id="create_note">
+  			<input id="entry_user" type="hidden" name="entry[user_id]" value="<%= session[:user_id] %>" />
+  			<input id="entry_title" type="hidden" name="entry[title]" value="" />
+  			<input id="entry_genre" type ="hidden" name="entry[genre]" value="" />
+  			<textarea id="entry_content" name="entry[content]"></textarea>
+  			<input type="submit" value="Submit note." />
+  		</form>
+  	</div>
+
+  	<a class="close" href="#close"></a>
+  </div>
