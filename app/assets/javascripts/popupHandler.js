@@ -1,4 +1,3 @@
-
 function popupHandler(title, genre) {
 	$('#popup_title').html(title);
 	$('#popup_genre').html(genre);
